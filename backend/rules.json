@@ -1,0 +1,134 @@
+{
+  "colors": [
+    {
+      "name": "Красный",
+      "hex": "#9C120E",
+      "rules": [
+        {"attribute": "employment", "value": "Работающие", "direction": "avoid"},
+        {"attribute": "interests", "value": "Семья и дети", "direction": "prefer"},
+        {"attribute": "interests", "value": "Здоровье", "direction": "prefer"},
+        {"attribute": "interests", "value": "Красота и уход за собой", "direction": "prefer"},
+        {"attribute": "interests_news", "value": "Спорт", "direction": "avoid"},
+        {"attribute": "music", "value": "Меломаны", "direction": "avoid"}
+      ]
+    },
+    {
+      "name": "Оранжевый",
+      "hex": "#DB6800",
+      "rules": [
+        {"attribute": "country", "value": "Россия", "direction": "prefer"},
+        {"attribute": "music", "value": "Классическая", "direction": "prefer"},
+        {"attribute": "age", "value": "Старше 40", "direction": "prefer"},
+        {"attribute": "interests", "value": "Новости", "direction": "avoid"}
+      ]
+    },
+    {
+      "name": "Желтый",
+      "hex": "#ED9E00",
+      "rules": [
+        {"attribute": "interests", "value": "Семья и дети", "direction": "prefer"},
+        {"attribute": "music", "value": "Классическая", "direction": "prefer"},
+        {"attribute": "music", "value": "Шансон", "direction": "prefer"},
+        {"attribute": "music", "value": "Меломаны", "direction": "avoid"},
+        {"attribute": "age", "value": "Старше 40", "direction": "prefer"}
+      ]
+    },
+    {
+      "name": "Зеленый",
+      "hex": "#2A5B20",
+      "rules": [
+        {"attribute": "employment", "value": "Работающие", "direction": "prefer"},
+        {"attribute": "interests", "value": "Компьютерная техника и программы", "direction": "prefer"},
+        {"attribute": "interests_news", "value": "Наука и техника", "direction": "prefer"}
+      ]
+    },
+    {
+      "name": "Синий",
+      "hex": "#00618A",
+      "rules": [
+        {"attribute": "country", "value": "Европа", "direction": "prefer"},
+        {"attribute": "country", "value": "не Россия", "direction": "prefer"},
+        {"attribute": "interests", "value": "Недвижимость", "direction": "avoid"},
+        {"attribute": "interests", "value": "Семья и дети", "direction": "avoid"},
+        {"attribute": "interests_leisure", "value": "Культурный отдых, афиша", "direction": "prefer"}
+      ]
+    },
+    {
+      "name": "Коричневый",
+      "hex": "#68453E",
+      "rules": [
+        {"attribute": "marital_status", "value": "Женаты (замужем)", "direction": "prefer"},
+        {"attribute": "country", "value": "Россия", "direction": "prefer"},
+        {"attribute": "interests", "value": "Досуг и развлечения (кино, медиа, музыка, афиши событий)", "direction": "avoid"},
+        {"attribute": "interests", "value": "Игры и игровые стримы, киберспорт", "direction": "avoid"},
+        {"attribute": "interests", "value": "Компьютерная техника и программы", "direction": "avoid"},
+        {"attribute": "interests", "value": "Путешествия и туризм", "direction": "avoid"},
+        {"attribute": "interests_news", "value": "Культура", "direction": "avoid"},
+        {"attribute": "interests_news", "value": "Наука и техника", "direction": "avoid"},
+        {"attribute": "interests_leisure", "value": "Книги", "direction": "avoid"}
+      ]
+    },
+    {
+      "name": "Фиолетовый",
+      "hex": "#39457D",
+      "rules": [
+        {"attribute": "music", "value": "Поп-музыка", "direction": "avoid"},
+        {"attribute": "music", "value": "Шансон", "direction": "avoid"},
+        {"attribute": "interests", "value": "Новости", "direction": "prefer"}
+      ]
+    },
+    {
+      "name": "Розовый",
+      "hex": "#CE9497",
+      "rules": [
+        {"attribute": "gender", "value": "Женский", "direction": "prefer"},
+        {"attribute": "employment", "value": "Работающие", "direction": "avoid"},
+        {"attribute": "city_size", "value": "Города-миллионники", "direction": "avoid"},
+        {"attribute": "interests", "value": "Недвижимость", "direction": "prefer"},
+        {"attribute": "interests", "value": "Семья и дети", "direction": "prefer"},
+        {"attribute": "interests", "value": "Компьютерная техника и программы", "direction": "avoid"},
+        {"attribute": "interests", "value": "Мода, одежда, обувь, аксессуары", "direction": "prefer"},
+        {"attribute": "interests_news", "value": "Общество", "direction": "prefer"},
+        {"attribute": "interests_leisure", "value": "Гороскопы, мистика, гадания", "direction": "prefer"},
+        {"attribute": "interests_leisure", "value": "Книги", "direction": "prefer"},
+        {"attribute": "interests_leisure", "value": "Культурный отдых, афиша", "direction": "prefer"},
+        {"attribute": "music", "value": "Поп-музыка", "direction": "prefer"}
+      ]
+    },
+    {
+      "name": "Белый",
+      "hex": "#E6ECED",
+      "rules": [
+        {"attribute": "interests", "value": "Спорт и активный отдых", "direction": "prefer"},
+        {"attribute": "interests", "value": "Образование", "direction": "prefer"},
+        {"attribute": "music", "value": "Джаз и блюз", "direction": "prefer"}
+      ]
+    },
+    {
+      "name": "Черный",
+      "hex": "#272829",
+      "rules": [
+        {"attribute": "gender", "value": "Мужской", "direction": "prefer"},
+        {"attribute": "country", "value": "не Россия", "direction": "prefer"},
+        {"attribute": "interests", "value": "Красота и уход за собой", "direction": "avoid"},
+        {"attribute": "interests_news", "value": "Спорт", "direction": "prefer"},
+        {"attribute": "interests_leisure", "value": "Рестораны, кафе, бары", "direction": "avoid"},
+        {"attribute": "music", "value": "Не слушают музыку", "direction": "prefer"}
+      ]
+    },
+    {
+      "name": "Серый",
+      "hex": "#92948E",
+      "rules": [
+        {"attribute": "gender", "value": "Мужской", "direction": "prefer"},
+        {"attribute": "marital_status", "value": "Женаты/замужем", "direction": "prefer"},
+        {"attribute": "city_size", "value": "Города-миллионники", "direction": "prefer"},
+        {"attribute": "country", "value": "Россия", "direction": "prefer"},
+        {"attribute": "interests", "value": "Игры и игровые стримы, киберспорт", "direction": "avoid"},
+        {"attribute": "interests", "value": "Красота и уход за собой", "direction": "avoid"},
+        {"attribute": "interests_news", "value": "Культура", "direction": "avoid"},
+        {"attribute": "interests_news", "value": "Спорт", "direction": "prefer"}
+      ]
+    }
+  ]
+}
